@@ -19,4 +19,7 @@
   <!-- Xiaomi HAL -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.2" />
 
+  <!-- MIUI Camera -->
+  <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gitlab" revision="anx-ginkgo" />
+
 </manifest>
