@@ -14,7 +14,7 @@
   <project path="vendor/xiaomi/ginkgo" name="Skyblueborb/proprietary_vendor_xiaomi_ginkgo" remote="github" revision="lineage-22.2" />
 
   <!-- Kernel -->
-  <project path="kernel/xiaomi/sm6125" name="FlopKernel-Series/flop_ginkgo_kernel" remote="github" revision="floppy-new-common-olr" />
+  <project path="kernel/xiaomi/sm6125" name="FlopKernel-Series/flop_ginkgo_kernel" remote="github" revision="floppy-new" />
 
   <!-- Xiaomi HAL -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.2" />
