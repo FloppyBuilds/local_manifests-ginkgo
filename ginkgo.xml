@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <!-- Device and vendor tree -->
+  <project path="device/xiaomi/sm6125-common" name="FloppyBuilds/android_device_xiaomi_sm6125-common" remote="github" revision="cr-15" />
+  <project path="device/xiaomi/ginkgo" name="FloppyBuilds/android_device_xiaomi_ginkgo" remote="github" revision="cr-15" />
+  <project path="vendor/xiaomi/sm6125-common" name="FloppyBuilds/proprietary_vendor_xiaomi_sm6125-common" remote="github" revision="cr-15" />
+  <project path="vendor/xiaomi/ginkgo" name="FloppyBuilds/proprietary_vendor_xiaomi_ginkgo" remote="github" revision="cr-15" />
+
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/sm6125" name="FlopKernel-Series/flop_ginkgo_kernel" remote="github" revision="floppy-new" />
+
+  <!-- Xiaomi HAL -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.2" />
+
+</manifest>
