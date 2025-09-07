@@ -4,9 +4,6 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
-  <remote name="github"
-          fetch="https://github.com/" />
-
   <!-- Device and vendor tree -->
   <project path="device/xiaomi/sm6125-common" name="Flopster101/android_device_xiaomi_sm6125-common" remote="github" revision="axion-fifteen" />
   <project path="device/xiaomi/ginkgo" name="Flopster101/android_device_xiaomi_ginkgo" remote="github" revision="axion-fifteen" />
