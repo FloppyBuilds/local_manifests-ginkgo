@@ -14,7 +14,7 @@
   <project path="kernel/xiaomi/sm6125" name="FlopKernel-Series/flop_ginkgo_kernel" remote="github" revision="floppy-new" />
 
   <!-- Xiaomi HAL -->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.2" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="yaap" revision="fifteen" />
 
   <!-- MIUI Camera -->
   <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gitlab" revision="anx-ginkgo" />
