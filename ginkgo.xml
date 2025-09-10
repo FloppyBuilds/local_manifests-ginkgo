@@ -12,6 +12,10 @@
   <!-- Xiaomi HAL -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo-devices" revision="vic" />
 
+  <!-- Cleanup -->
+  <remove-project path="hardware/qcom/sm7250/gps" />
+  <remove-project path="hardware/qcom/sm8150/gps" />
+
   <!-- MIUI Camera -->
   <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gitlab" revision="anx-ginkgo" />
 
