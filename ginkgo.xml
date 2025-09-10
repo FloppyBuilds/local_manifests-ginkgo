@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="gitlab"
-          fetch="https://gitlab.com/" />
-
   <!-- Device and vendor tree -->
   <project path="device/xiaomi/sm6125-common" name="FloppyBuilds/android_device_xiaomi_sm6125-common" remote="github" revision="evox-vic" />
   <project path="device/xiaomi/ginkgo" name="FloppyBuilds/android_device_xiaomi_ginkgo" remote="github" revision="evox-vic" />
