@@ -5,10 +5,10 @@
           fetch="https://gitlab.com/" />
 
   <!-- Device and vendor tree -->
-  <project path="device/xiaomi/sm6125-common" name="Flopster101/android_device_xiaomi_sm6125-common" remote="github" revision="axion-fifteen" />
-  <project path="device/xiaomi/ginkgo" name="Flopster101/android_device_xiaomi_ginkgo" remote="github" revision="axion-fifteen" />
-  <project path="vendor/xiaomi/sm6125-common" name="Flopster101/proprietary_vendor_xiaomi_sm6125-common" remote="github" revision="axion-fifteen" />
-  <project path="vendor/xiaomi/ginkgo" name="TheMuppets/proprietary_vendor_xiaomi_ginkgo" remote="github" revision="axion-fifteen" />
+  <project path="device/xiaomi/sm6125-common" name="FloppyBuilds/android_device_xiaomi_sm6125-common" remote="github" revision="axion-fifteen" />
+  <project path="device/xiaomi/ginkgo" name="FloppyBuilds/android_device_xiaomi_ginkgo" remote="github" revision="axion-fifteen" />
+  <project path="vendor/xiaomi/sm6125-common" name="FloppyBuilds/proprietary_vendor_xiaomi_sm6125-common" remote="github" revision="axion-fifteen" />
+  <project path="vendor/xiaomi/ginkgo" name="FloppyBuilds/proprietary_vendor_xiaomi_ginkgo" remote="github" revision="axion-fifteen" />
 
   <!-- Kernel -->
   <project path="kernel/xiaomi/sm6125" name="FlopKernel-Series/flop_ginkgo_kernel" remote="github" revision="floppy-new" />
