@@ -4,6 +4,9 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <remote name="yaap-gitlab"
+          fetch="https://gitlab.com/yaosp" />
+
   <!-- Device and vendor tree -->
   <project path="device/xiaomi/sm6125-common" name="FloppyBuilds/android_device_xiaomi_sm6125-common" remote="github" revision="cr-15" />
   <project path="device/xiaomi/ginkgo" name="FloppyBuilds/android_device_xiaomi_ginkgo" remote="github" revision="cr-15" />
@@ -18,5 +21,9 @@
 
   <!-- MIUI Camera -->
   <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gitlab" revision="anx-ginkgo" />
+
+  <!-- Gapps -->
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="yaap-gitlab" clone-depth="1" revision="refs/heads/fifteen" />
+  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="yaap-gitlab" clone-depth="1" revision="refs/heads/fifteen" />
 
 </manifest>
