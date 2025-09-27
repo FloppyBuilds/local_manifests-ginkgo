@@ -25,5 +25,6 @@
   <!-- Gapps -->
   <project path="vendor/google/gms" name="vendor_google_gms" remote="yaap-gitlab" clone-depth="1" revision="refs/heads/fifteen" />
   <project path="vendor/google/pixel" name="vendor_google_pixel" remote="yaap-gitlab" clone-depth="1" revision="refs/heads/fifteen" />
+  <project path="vendor/google/gms-extras" name="Flopster101/vendor_google_gms-extras" remote="gitlab" clone-depth="1" revision="refs/heads/15-yaap-gms" />
 
 </manifest>
