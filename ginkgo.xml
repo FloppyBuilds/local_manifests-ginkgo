@@ -27,7 +27,4 @@
   <project path="vendor/google/pixel" name="vendor_google_pixel" remote="yaap-gitlab" clone-depth="1" revision="refs/heads/sixteen" />
   <project path="vendor/google/gms-extras" name="Flopster101/vendor_google_gms-extras" remote="gitlab" clone-depth="1" revision="refs/heads/16-yaap-gms" />
 
-  <!-- SpeakerFX -->
-  <project path="packages/apps/SpeakerFX" name="exynos1280/android_packages_apps_SpeakerFX" remote="github" />
-
 </manifest>
