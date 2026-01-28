@@ -30,4 +30,6 @@
   <!-- Remove unwanted Dolby package on sync -->
   <remove-project path="packages/apps/DolbyAtmos" />
 
+  <project path="hardware/dolby" name="Meow-prjkt/android_hardware_dolby" remote="github" revision="lineage-23.1" />
+
 </manifest>
