@@ -2,10 +2,10 @@
 <manifest>
 
   <!-- Device and vendor tree -->
-  <project path="device/xiaomi/sm6125-common" name="FloppyBuilds/android_device_xiaomi_sm6125-common" remote="github" revision="pixel-16" />
-  <project path="device/xiaomi/ginkgo" name="FloppyBuilds/android_device_xiaomi_ginkgo" remote="github" revision="pixel-16" />
-  <project path="vendor/xiaomi/sm6125-common" name="FloppyBuilds/proprietary_vendor_xiaomi_sm6125-common" remote="github" revision="pixel-16" />
-  <project path="vendor/xiaomi/ginkgo" name="FloppyBuilds/proprietary_vendor_xiaomi_ginkgo" remote="github" revision="pixel-16" />
+  <project path="device/xiaomi/sm6125-common" name="FloppyBuilds/android_device_xiaomi_sm6125-common" remote="github" revision="lunaris-16" />
+  <project path="device/xiaomi/ginkgo" name="FloppyBuilds/android_device_xiaomi_ginkgo" remote="github" revision="lunaris-16" />
+  <project path="vendor/xiaomi/sm6125-common" name="FloppyBuilds/proprietary_vendor_xiaomi_sm6125-common" remote="github" revision="lunaris-16" />
+  <project path="vendor/xiaomi/ginkgo" name="FloppyBuilds/proprietary_vendor_xiaomi_ginkgo" remote="github" revision="lunaris-16" />
 
   <!-- Kernel -->
   <project path="kernel/xiaomi/sm6125" name="FlopKernel-Series/flop_ginkgo_kernel" remote="github" revision="floppy-unity" />
@@ -14,8 +14,6 @@
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
 
   <!-- MIUI Camera -->
-  <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gitlab" revision="anx-ginkgo" />
-
-  <project path="hardware/dolby" name="Meow-prjkt/android_hardware_dolby" remote="github" revision="lineage-23.1" />
+  <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="lunaris-gitlab" revision="anx-ginkgo" />
 
 </manifest>
